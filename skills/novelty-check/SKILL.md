@@ -6,7 +6,7 @@ Check whether a proposed method/idea has already been done in the literature.
 User says "查新", "novelty check", "有没有人做过", "check novelty", or wants to verify a research idea is novel before implementing.
 
 ## allowed-tools
-WebSearch, WebFetch, Grep, Read, Glob, mcp__codex__codex, mcp__gemini__chat, mcp__gemini__googleSearch
+WebSearch, WebFetch, Grep, Read, Glob, mcp__codex__codex
 
 ## Instructions
 
@@ -23,7 +23,7 @@ Given a method description, systematically verify its novelty:
 ### Phase B: Multi-Source Literature Search
 For EACH core claim, search using ALL available sources:
 
-1. **Google Search** (via `mcp__gemini__googleSearch` or `WebSearch`):
+1. **Web Search** (via `WebSearch`):
    - Search arXiv, Google Scholar, Semantic Scholar
    - Use specific technical terms from the claim
    - Try at least 3 different query formulations per claim
