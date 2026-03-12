@@ -47,6 +47,8 @@ These skills compose into a full research lifecycle. The two workflows can be us
 - **Already have an idea + initial plan?** Jump straight to Workflow 2 (auto review loop)
 - **Full pipeline?** Workflow 1 → Workflow 2, from literature survey all the way to submission
 
+> ⚠️ **Important:** These tools accelerate research, but they don't replace your own critical thinking. Always review generated ideas with your domain expertise, question the assumptions, and make the final call yourself. The best research comes from human insight + AI execution, not full autopilot.
+
 ### Full Pipeline 🚀
 
 ```
