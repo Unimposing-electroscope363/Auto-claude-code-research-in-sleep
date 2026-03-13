@@ -96,10 +96,12 @@ These skills compose into a full research lifecycle. The two workflows can be us
 ### Full Pipeline 🚀
 
 ```
-/research-lit → /idea-creator → /novelty-check → implement → /run-experiment → /auto-review-loop → submit
-  (survey)      (brainstorm)    (verify novel)    (code)      (deploy & run)    (review & fix)     (done!)
-  ├──── Workflow 1: Idea Discovery ────┤              ├──────── Workflow 2: Auto Loop ────────┤
+/research-lit → /idea-creator → /novelty-check → implement → /run-experiment → /auto-review-loop → /paper-plan → /paper-figure → /paper-write → submit
+  (survey)      (brainstorm)    (verify novel)    (code)      (deploy & run)    (review & fix)      (outline)     (plots)        (LaTeX+PDF)    (done!)
+  ├──── Workflow 1: Idea Discovery ────┤              ├──── Workflow 2: Auto Loop ────┤   ├──── Workflow 3: Paper Writing (🚧 WIP) ────┤
 ```
+
+> 🚧 **Workflow 3 coming soon** — auto-generate publication-ready LaTeX + figures from review conclusions. See [Roadmap](#-roadmap) for details and reference projects.
 
 📝 **Blog post:** [梦中科研全流程开源](http://xhslink.com/o/2iV33fYoc7Q)
 

@@ -96,10 +96,12 @@ claude
 ### 完整流程 🚀
 
 ```
-/research-lit → /idea-creator → /novelty-check → 实现 → /run-experiment → /auto-review-loop → 投稿
-  (调研文献)      (找idea)       (查新验证)     (写代码)   (部署跑实验)     (自动改到能投)     (搞定!)
-  ├──── 工作流 1：找 Idea ────┤                 ├──────── 工作流 2：自动循环 ────────┤
+/research-lit → /idea-creator → /novelty-check → 实现 → /run-experiment → /auto-review-loop → /paper-plan → /paper-figure → /paper-write → 投稿
+  (调研文献)      (找idea)       (查新验证)     (写代码)   (部署跑实验)     (自动改到能投)      (大纲)        (作图)        (LaTeX+PDF)   (搞定!)
+  ├──── 工作流 1：找 Idea ────┤                 ├──── 工作流 2：自动循环 ────┤   ├──── 工作流 3：论文写作 (🚧 开发中) ────┤
 ```
+
+> 🚧 **工作流 3 即将上线** — 从 review 结论自动生成出版级 LaTeX + 图表。详见 [Roadmap](#-roadmap) 了解详情和参考项目。
 
 📝 **博客：** [梦中科研全流程开源](http://xhslink.com/o/2iV33fYoc7Q)
 
