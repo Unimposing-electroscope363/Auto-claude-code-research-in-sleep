@@ -358,6 +358,7 @@ After Workflow 3 generates the paper, `/auto-paper-improvement-loop` runs 2 roun
 | | | |
 | **Community Skills** | *Domain-specific skills contributed by the community* | |
 | 🏗️ [`dse-loop`](skills/dse-loop/SKILL.md) | Autonomous design space exploration — iteratively run, analyze, and tune parameters. Built for architecture/EDA (gem5, Yosys), but works for any domain with tunable parameters (comp chem, CFD, bioinformatics, etc.) | No |
+| 🤖 [`idea-discovery-robot`](skills/idea-discovery-robot/SKILL.md) | Robotics / embodied AI adaptation of Workflow 1. Grounds idea discovery in embodiment, benchmark choice, sim2real path, and real-robot safety constraints before ranking ideas | Yes |
 
 ---
 
